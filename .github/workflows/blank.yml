@@ -1,0 +1,16 @@
+导入 itchatmp
+
+itchatmp.update_config（itchatmp.WechatConfig（
+    令牌= ' yourToken '，
+     appId  =  ' yourAppId '，
+     appSecret  =  ' yourAppSecret '））
+
+@ itchatmp.msg_register（itchatmp.content TEXT）
+ DEF  text_reply（MSG）：
+     返回 MSG [ '内容' ]
+
+itchatmp.run（）
+
+
+
+
